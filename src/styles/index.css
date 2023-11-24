@@ -7,6 +7,38 @@
     ...Or you can use the import command to include 
     other sylesheets into your bunde as well, e.j:
     
-    import 'relative/path/to/stylesheet.scss';
+    import 'relative/path/to/stylesheet.scss';[[
 
 */
+
+.main-counter {
+    background-color: #080808;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.main-counter div {
+    display: inline-block;
+    color: white;
+    padding: 30px;
+    font-size: 80px;
+    line-height: 80px;
+    border: 2px solid gray;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
