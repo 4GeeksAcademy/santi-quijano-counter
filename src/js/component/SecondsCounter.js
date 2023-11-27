@@ -1,5 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
+
 function SecondsCounter(props) {
     const { digitOne, digitTwo, digitThree, digitFour, digitFive, digitSix } = props;
     return (
@@ -39,5 +40,5 @@ setInterval(() => {
         />
         , document.querySelector("#app")
     );
-}, 1000);
+}, 100);
 export default SecondsCounter;
